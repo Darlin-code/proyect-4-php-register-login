@@ -1,0 +1,104 @@
+:root {
+    --background: #363535;
+    --text-color: #d3cccc;
+    --link-color: #649bce;
+    --font-t: Nunito;
+    --font-h: Nunito-Bold-Italic;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url("../font/Nunito-Regular.ttf");
+}
+
+@font-face {
+    font-family: Nunito-Bold-Italic;
+    src: url("../font/Nunito-BoldItalic.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-t);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+.container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+form {
+    width: 60vh;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.form-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-form {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.header-form h1{
+    font-family: var(--font-h);
+}
+
+.body-form input{
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: var(--background);
+    border: 2px solid var(--text-color);
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+.body-form input:hover{
+    border: 2px solid var(--link-color);
+}
+
+.buttons-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-form button {
+    padding: 10px;
+    margin: 40px 10px;
+    background-color: var(--background);
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.buttons-form button:hover {
+    color: var(--link-color);
+    border: 2px solid var(--link-color);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #222020;
+}
