@@ -16,7 +16,7 @@
             <div class="header">
                 <div class="nav">
                     <a href="index.php">Inicio</a>
-                    <a href="#">Sobre mí</a>
+                    <a href="#">Sobre mi</a>
                     <a href="#">Contacto</a>
                 </div>
                 <div class="spacing">
