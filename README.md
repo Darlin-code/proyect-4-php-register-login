@@ -1,6 +1,6 @@
-#**project-4-php-register-login.**
+# **project-4-php-register-login.**
 
-###**How to use if you are new (At least more than me).**
+### **How to use if you are new (At least more than me).**
 
 *1. __Import__ the DB to your __database management system__.*
 
