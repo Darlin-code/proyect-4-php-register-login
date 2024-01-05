@@ -7,5 +7,5 @@
     first the host, then the port, the dbname leave it the same, and enter your user
     and password to finish.*
 
-___Note: Login is required for $__SESSION["USER_AUTH"] to be set.
+___Note: Login is required for $____SESSION["USER_AUTH"] to be set.
          Or declare it yourself, but lose the fun.___
